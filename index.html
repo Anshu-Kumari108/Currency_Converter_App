@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./codes.js" defer></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Currency Converter</h3>
+        <form>
+            <div class="amount">
+               <p class="amount-text"> Enter amount</p>
+               <input type="text" value="1">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p class="from-text">From</p>
+                    <div class="select-container">
+                        <img class="from-img" src="https://flagsapi.com/US/flat/64.png"/>
+                        <select name="from" ></select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="to">
+                    <p class="to-text">To</p>
+                    
+                    <div class="select-container">
+                        <img class="to-img" src="https://flagsapi.com/IN/flat/64.png"/>
+                        <select name="to" ></select>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="msg"></div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/17a99c6820.js" crossorigin="anonymous"></script>
+</body>
+</html>
